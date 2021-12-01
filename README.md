@@ -1,2 +1,2 @@
 # AdventOfCode-2021
-Advent of Code 2021 Projects
+Collection of Projects for Advent of Code 2021
