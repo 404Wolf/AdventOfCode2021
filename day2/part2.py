@@ -8,10 +8,9 @@ forwardness = 0
 for movement in inputs:
   movement = movement.split(" ")
   movement[1] = int(movement[1])
-  
   if movement[0] == "forward":
     forwardness += movement[1]
-    depth = forwardness * aim
+    depth += movement[1] * aim
   elif movement[0] == "down":
     aim += movement[1]
   elif movement[0] == "up":
