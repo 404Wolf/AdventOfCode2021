@@ -5,5 +5,5 @@
   Projects can be found with a folder for each given day, with a `part1.py` and `part2.py` for that day's respective challenges, along with an input.txt for each day, which were the inputs for that day's challenges.
 
 ##Collaborators:
-** @Hair
-** @GeneralKen0bi
+**@Hair
+**@GeneralKen0bi
