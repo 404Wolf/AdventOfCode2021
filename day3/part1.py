@@ -8,13 +8,13 @@ entries = open("input.txt").read().split("\n")
 #     return row
 entries = map(lambda entry: tuple(map(int, tuple(entry))), entries)
 
-# make an itterable of each coloumn of the multidimentional itterable:
-# zip together the resultant entries
+# make an itterable of each coloumn of the multidimentional itterable
 columns = zip(*entries)  # unpack entries into zip() function
 
 # set gammaRate and epsilonRate to ""
-# these empty strings will be appended to with "0"s and "1"s,
-# to create binary strings later on
+# these empty strings have "0"s and "1"s appended to them,
+# and will be used to create binary strings later on
+# which in the end will be converted to integers
 gammaRate = epsilonRate = ""
 
 # itterate through columns of entries
