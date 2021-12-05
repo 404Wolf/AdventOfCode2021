@@ -1,3 +1,4 @@
+
 from math import inf
 
 # load input file
